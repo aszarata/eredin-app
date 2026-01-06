@@ -1,0 +1,2 @@
+['remote "local_remote"']
+    url = ../../local-storage
