@@ -127,6 +127,9 @@
                     currentImageId = data.image_id;
                     document.getElementById('previewImage').src = data.image_url;
                     document.getElementById('processingArea').style.display = 'block';
+                    if (data.image_problem) {
+                        alert('Image problem: ' + data.image_problem);
+                    }
                 }
             });
         }
